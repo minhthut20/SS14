@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Bai4.1
+        // function powNumber(a) {
+        //     let result = Math.pow(a,2);
+        //     document.write(result);
+        // }
+        // let a = parseInt(prompt(" Nhập số nguyên : "));
+        // powNumber(a)
+
+        // Bai4.2
+        // function calculatePeriAreaCircle(radius){
+        //     let perimeter = 2*Math.PI * radius;
+        //     let area = Math.PI * ( radius**2)
+        //     document.write(" Chu vi hình của hình tròn là : " + perimeter);
+        //     document.write("<br>");
+        //     document.write(" Diện tích của hình tròn là : " + area )
+        // }
+        // let radius = parseInt(prompt(" Nhập vào giá trị : "));
+        // calculatePeriAreaCircle(radius);
+
+        // Bai4.3
+        // function factorialCalculation(n){
+        //     let result = 1
+        //     for ( let i = 1; i <= n; i++){
+        //         result *= i;
+        //     }
+        //     document.write("Giai thừa của " + n + " là :" + result );
+        // }
+        // let a = parseInt(prompt(" Nhập vào một số nguyên : "));
+        // factorialCalculation(a);
+
+        // Bai4.4
+        // function characterCheck(character){
+        //     if(isNaN(character) == true){
+        //         // character kp là số
+        //         document.write(" Kí tự này không phải là số ");
+        //     }
+        //     else{
+        //         // character la so 
+        //         document.write( " Kí tự này là số ")
+        //     }
+        // }
+        // let a = (prompt(" Nhập vào kí tự bất kì :"));
+        // characterCheck(a);
+
+        // Bai4.5
+        // let a = parseInt(prompt(" Nhập vào số thứ Nhất : "));
+        // let b = parseInt(prompt(" Nhập vào số thứ hai : "));
+        // let c = parseInt(prompt(" Nhập vào số thứ ba : "));
+        // function findSmallestNumber(a,b,c){
+        //    if ( a < b && a < c){
+        //         document.write( a + " là giá trị nhỏ nhất ");
+        //    }
+        //    else if ( b < c ){
+        //         document.write( b + " Là giá trị nhỏ nhất ");
+        //    }
+        //    else{
+        //         document.write( c + " Là giá trị nhỏ nhất ");
+        //    }
+        // }
+        // findSmallestNumber(a,b,c)
+
+        // Bai4.6
+        // let a = parseInt(prompt(" Nhập vào số "));
+        // function checkNumber(number) {
+        //     if( a < 0){
+        //         document.write(" Đây là số âm ");
+        //     }
+        //     else{
+        //         document.write(" Đây là số dương ");
+        //     }
+        // }
+        // checkNumber(a);
+
+        // Bai4.7
+        // let arr = []
+        // function changeNumber(){
+        //     let tem 
+        //     tem = arr[0];
+        //     arr[0] = arr[1];
+        //     arr[1] = tem;
+        // }
+        // arr[0] = prompt(" Nhập số thứ nhất : ")
+        // arr[1] = prompt(" Nhập số thứ hai : ")
+        // document.write(" Số trước khi nhập vào là :" + arr);
+        // document.write("<br>");
+        // changeNumber()
+        // document.write(" Số sau khi chuyển đổi là : " + arr);
+
+        // Bai4.8
+        // let arr = [];
+        // let range = parseInt(prompt(" Nhập vào độ dài của mảng "));
+        // function reverseArr(arr) {
+        //     for (i = 0; i < range; i++) {
+        //         arr[i] = prompt(" Nhập vào giá trị :");
+        //     }
+        //     let arrays = arr.reverse();
+        //     return arrays;
+        // }
+        // document.write(" Dãy kí tự sau khi đảo ngược là :" + reverseArr(arr));
+
+        // Bai4.9
+        function findWord(arr, a) {
+                let count = 0;
+                let b;
+                for (i = 0; i < arr.length; i++) {
+                    if (arr[i] == a) {
+                        count++;
+                    }
+                    else {
+                        b = -1
+                        console.log(b);
+                    }
+
+                }
+                console.log(count);
+
+            }
+            let word = prompt("Input a word");
+            let arr1 = ["a", "c", "s", "c", "d", "f"];
+            findWord(arr1, word)
+
+
+    </script>
+
+</body>
+
+</html>

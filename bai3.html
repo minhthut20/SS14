@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Bai3.1
+        // function alertMessage(){
+        //     alert(" Xin Chào");
+        // }
+
+        // Bai3.2
+        // let a = parseInt(prompt(" Nhập số :"))
+        // function showaNumber(a){
+        //     a ++;
+        //     console.log(a);
+        //     document.write(a);
+        // } 
+        // showaNumber(a);
+        
+        // Bai3.3
+        // let a = parseInt(prompt(" Nhập vào số thứ nhất : "))
+        // let b = parseInt(prompt(" Nhập vào số thứ hai : "))
+        // function compareNumber(a,b){
+        //     if ( a > b){
+        //         alert(" Số thứ nhất lớn hơn số thứ hai ");
+        //     }
+        //     else {
+        //         document.write( `Tổng giá trị 2 số : ${a + b }`);
+        //     }
+        // }
+        // compareNumber(a,b);
+
+        // Bai3.4
+        // function addNumbers() {
+        //         firstNum = 4;
+        //         secondNum = 8;
+        //         result = firstNum + secondNum; return result;
+        //     }
+        //     result = 0;
+        //     alert(result);
+        //     result = addNumbers();
+        //     alert(result);
+
+        // Bai3.5
+        let arr1 = ["Polaris", "Aldebaran", "Dened", "Vega", "Altair", "Dubhe", "Regulus"]
+        let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa", "Major", "Leo"]
+        function findConstellation(star){
+             for (let i = 0; i < arr1.length; i++){
+                if(arr1[i] == star ){
+                    document.write(" Chòm sao thuộc nhóm : " + arr2[i]);
+                    break;
+                }
+                else if(i == arr1.length - 1){
+                    document.write( " Chòm sao không thuộc nhóm nào cả " )
+                }
+             }
+        }
+        let star = prompt(" Nhập vào tên sao : ");
+        findConstellation(star);
+    </script>
+</body>
+</html>
